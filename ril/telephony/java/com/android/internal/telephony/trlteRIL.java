@@ -100,7 +100,6 @@ public class trlteRIL extends RIL {
 
         send(rr);
     }
-}
 
     @Override
     protected Object
