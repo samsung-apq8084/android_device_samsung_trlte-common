@@ -253,3 +253,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Common apq8084
 $(call inherit-product, device/samsung/apq8084-common/apq8084.mk)
+
+PRODUCT_PACKAGES += \
+    AFH_Downloader
