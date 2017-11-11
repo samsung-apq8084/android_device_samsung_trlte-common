@@ -102,7 +102,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info_xml \
     $(LOCAL_PATH)/audio/jack_alsa_mixer.json:system/etc/jack_alsa_mixer.json \
     $(LOCAL_PATH)/audio/mixer_paths_i2s.xml:system/etc/mixer_paths_i2s.xml \
-    $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml
+    $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
+    $(LOCAL_PATH)/audio/mixer_paths_eur.xml:install/bin/mixer_paths_eur.xml
 
 # Bluetooth
 PRODUCT_PACKAGES += \
