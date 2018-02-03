@@ -11,7 +11,7 @@ LOCAL_MODULE_PATH  := $(TARGET_OUT_ETC)
 include $(BUILD_PREBUILT)
 endif
 
-ifeq ($(TARGET_DEVICE),trltetmo trltecan trltespr trlteusc trlteduos )
+ifeq ($(TARGET_DEVICE),trltetmo trltecan trltespr trlteusc trlteduos)
 include $(CLEAR_VARS)
 LOCAL_MODULE       := mixer_paths.xml
 LOCAL_MODULE_TAGS  := optional
