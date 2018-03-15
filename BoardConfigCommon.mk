@@ -56,6 +56,7 @@ TARGET_POWERHAL_SET_INTERACTIVE_EXT := $(DEVICE_PATH)/power/power_ext.c
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+LZMA_RAMDISK_TARGETS := recovery
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
