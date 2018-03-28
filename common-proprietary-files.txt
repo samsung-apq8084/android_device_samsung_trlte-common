@@ -294,6 +294,14 @@ vendor/lib/libdrmtime.so
 vendor/lib/librpmb.so
 vendor/lib/libssd.so
 
+# Fingerprint
+bin/vcsFPService:vendor/bin/vcsFPService
+lib/libfpasmtztransport.so:vendor/lib/libfpasmtztransport.so
+lib/libvalAuth.so:vendor/lib/libvalAuth.so
+lib/libvcsfp.so:vendor/lib/libvcsfp.so
+lib/libvfmClient.so:vendor/lib/libvfmClient.so
+lib/libvfmtztransport.so:vendor/lib/libvfmtztransport.so
+
 # GPS
 bin/loc_launcher
 lib/hw/gps.default.so
