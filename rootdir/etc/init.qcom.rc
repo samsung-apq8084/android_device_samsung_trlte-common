@@ -28,6 +28,7 @@
 import init.qcom.usb.rc
 import init.qcom.power.rc
 import init.target.rc
+import init.common.rc
 
 on early-init
     setprop sys.boot_completed 0
